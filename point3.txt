@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class point3{
+public int x;
+public int y;
+public point(){
+System.out.println("point class default constructor is called :")
+}
+public point(int x,int y){
+this.x=x;
+this.y=y;
+System.out.println("point class Parametrized Constructor is called:")
+}
+public static void main(String args[]){
+	point p1 =new point();
+	point p2=new point(10,20);
+
+}
